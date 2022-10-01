@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: blueviolet;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;   
+}
+main{
+    padding: 30px 50px;
+}
+.card{
+    background-color: aliceblue;
+    border: 1px solid #c9c9c9;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    outline: 0;
+}
+button{
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+button:hover{
+    background-color: rgb(79, 10, 143);
+}
+.content{
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+table th{
+    background-color: aliceblue;
+}
+table th, td{
+    padding: 1px 5px;
+    text-align: left;
+}
+table td img{
+    width: 22px;
+}
+.center{
+    text-align: center;
+}
